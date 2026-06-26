@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Neural Sleep & Cognitive Optimization Mask</title>
+    <!-- Favicon using a sleek brain emoji SVG -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background decorative blur elements -->
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <a href="#home" class="logo-container">
+            <div class="logo-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#06040d"/>
+                    <path d="M12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" fill="#00f2fe"/>
+                </svg>
+            </div>
+            <span class="logo-text">AURA</span>
+        </a>
+        <nav id="nav-menu">
+            <a href="#home" class="active">Home</a>
+            <a href="#features">Features</a>
+            <a href="#tech">Sleep Tech</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#preorder" class="nav-cta">Pre-Order Now</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content reveal">
+            <div class="badge">
+                <span class="badge-dot"></span>
+                Batch 03 Pre-Order • Save 20%
+            </div>
+            <h1>Master Your Sleep.<br>Unlock Your <span>Mind</span>.</h1>
+            <p>Meet AURA, the world's first smart sleep mask utilizing medical-grade EEG monitoring and gentle micro-stimulation to enhance deep sleep, improve recovery, and safely trigger lucid dreaming.</p>
+            <div class="hero-actions">
+                <a href="#pricing" class="btn btn-primary">Reserve Aura Now</a>
+                <a href="#features" class="btn btn-secondary">Explore Features</a>
+            </div>
+        </div>
+        <div class="hero-image-container reveal delay-200">
+            <div class="hero-image-glow"></div>
+            <img src="aura_sleep_mask.png" alt="AURA Neural Sleep Mask" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-header reveal">
+            <h2>Engineering the Perfect Night</h2>
+            <p>Aura combines comfortable design with highly advanced neurotech to optimize every minute of your rest cycles.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card reveal delay-100">
+                <div class="feature-icon">🧠</div>
+                <h3>Active EEG Sensors</h3>
+                <p>Six clinical-grade dry sensors measure your electrical brain activity continuously with 99.2% correlation to lab polysomnography.</p>
+            </div>
+            
+            <div class="feature-card reveal delay-200">
+                <div class="feature-icon">⚡</div>
+                <h3>Neuro-Stimulation</h3>
+                <p>Gently synchronized micro-pulses match your neural oscillations, boosting slow-wave amplitude for up to 35% more deep sleep.</p>
+            </div>
+            
+            <div class="feature-card reveal delay-300">
+                <div class="feature-icon">🌌</div>
+                <h3>Lucid Dream Trigger</h3>
+                <p>Advanced algorithmic dream-detection triggers precise, faint light patterns and soft acoustic cues during REM to induce cognitive dream awareness.</p>
+            </div>
+            
+            <div class="feature-card reveal delay-100">
+                <div class="feature-icon">🌿</div>
+                <h3>Mulberry Silk Shell</h3>
+                <p>Made from organic, hypoallergenic 22 momme mulberry silk and contoured 3D memory foam that blocks 100% of external light with zero eye pressure.</p>
+            </div>
+            
+            <div class="feature-card reveal delay-200">
+                <div class="feature-icon">🔇</div>
+                <h3>Acoustic Shielding</h3>
+                <p>Integrated bone-conduction audio drivers deliver customized white noise and binaural dreamscapes without blocking ear canals.</p>
+            </div>
+            
+            <div class="feature-card reveal delay-300">
+                <div class="feature-icon">📊</div>
+                <h3>Cognitive App Companion</h3>
+                <p>Track your hypnogram, explore neural insights, review dream logs, and customize your neuro-stimulation frequencies in the Aura App.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Sleep Simulator -->
+    <section class="interactive-simulator" id="tech">
+        <div class="simulator-container reveal">
+            <div class="simulator-controls">
+                <h3>See Aura in Action</h3>
+                <p>Aura adapts in real-time to your sleep architecture. Click the sleep stages below to simulate how the mask's neurotech interacts with your brainwaves.</p>
+                <div class="stage-buttons">
+                    <button class="stage-btn active" data-stage="light">
+                        <span>Light Sleep (Syncing Stage)</span>
+                        <span class="btn-indicator"></span>
+                    </button>
+                    <button class="stage-btn" data-stage="deep">
+                        <span>Deep Sleep (Delta Boost)</span>
+                        <span class="btn-indicator"></span>
+                    </button>
+                    <button class="stage-btn" data-stage="rem">
+                        <span>REM Sleep (Dream Induction)</span>
+                        <span class="btn-indicator"></span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="simulator-visual">
+                <div class="wave-graph">
+                    <svg width="100%" height="100%" viewBox="0 0 600 120" preserveAspectRatio="none">
+                        <path id="eeg-wave" d="M 0,60 C 10,60 15,20 25,20 C 35,20 40,100 50,100 C 60,100 65,40 75,40 C 85,40 90,80 100,80 C 110,80 115,50 125,50 C 135,50 140,70 150,70 C 160,70 165,30 175,30 C 185,30 190,90 200,90 C 210,90 215,40 225,40 C 235,40 240,80 250,80 C 260,80 265,55 275,55 C 285,55 290,65 300,65 C 310,65 315,35 325,35 C 335,35 340,85 350,85 C 360,85 365,45 375,45 C 385,45 390,75 400,75 C 410,75 415,50 425,50 C 435,50 440,70 450,70 C 460,70 465,25 475,25 C 485,25 490,95 500,95 C 510,95 515,40 525,40 C 535,40 540,80 550,80 C 560,80 565,60 575,60 C 585,60 590,60 600,60" fill="none" stroke="#00f2fe" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="sim-info">
+                    <h4 id="stage-title">Light Sleep Integration</h4>
+                    <p id="stage-desc">Aura begins detecting sleep onset, utilizing acoustic bone-conduction soundscapes to lower heart rate and prepare the mind for deeper rest.</p>
+                </div>
+                <div class="sim-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Brainwave State</span>
+                        <span class="stat-value" id="stat-wave">Theta (4 - 8 Hz)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Aura Response</span>
+                        <span class="stat-value" id="stat-response">Acoustic Alignment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="section-header reveal">
+            <h2>Select Your Sleep Upgrade</h2>
+            <p>Choose the model that fits your wellness goals. Every purchase includes custom fit inserts and early beta app membership access.</p>
+        </div>
+
+        <div class="pricing-toggle-container reveal">
+            <span class="toggle-label active" id="label-monthly">Monthly Billing</span>
+            <div class="toggle-switch" id="billing-toggle"></div>
+            <span class="toggle-label" id="label-yearly">Annual Billing</span>
+            <span class="save-badge">Save 20%</span>
+        </div>
+
+        <div class="pricing-grid">
+            <!-- Lite Card -->
+            <div class="pricing-card reveal delay-100">
+                <h3 class="plan-name">Aura Lite</h3>
+                <div class="plan-price">
+                    <span class="price-currency">₹</span>
+                    <span class="price-amount" id="price-lite">1,299</span>
+                    <span class="price-period">/ mo</span>
+                </div>
+                <p class="plan-desc">Essential sleep tracking and customized ambient acoustic shielding.</p>
+                <ul class="pricing-features">
+                    <li><span class="feature-check">✓</span> 3 High-density sleep sensors</li>
+                    <li><span class="feature-check">✓</span> Bone-conduction soundscapes</li>
+                    <li><span class="feature-check">✓</span> 60-Night battery life</li>
+                    <li><span class="feature-check">✓</span> Standard sleep scoring app</li>
+                </ul>
+                <a href="#preorder" class="btn btn-secondary price-btn">Get Started</a>
+            </div>
+
+            <!-- Pro Card -->
+            <div class="pricing-card popular reveal">
+                <div class="popular-tag">Most Popular</div>
+                <h3 class="plan-name">Aura Pro</h3>
+                <div class="plan-price">
+                    <span class="price-currency">₹</span>
+                    <span class="price-amount" id="price-pro">1,999</span>
+                    <span class="price-period">/ mo</span>
+                </div>
+                <p class="plan-desc">Full active neurostimulation & lucid dream induction system.</p>
+                <ul class="pricing-features">
+                    <li><span class="feature-check">✓</span> 6 Clinical dry EEG sensors</li>
+                    <li><span class="feature-check">✓</span> Active slow-wave stimulation</li>
+                    <li><span class="feature-check">✓</span> Lucid dreaming LED modules</li>
+                    <li><span class="feature-check">✓</span> Premium app neural statistics</li>
+                </ul>
+                <a href="#preorder" class="btn btn-primary price-btn">Pre-Order Pro</a>
+            </div>
+
+            <!-- Elite Card -->
+            <div class="pricing-card reveal delay-200">
+                <h3 class="plan-name">Aura Elite</h3>
+                <div class="plan-price">
+                    <span class="price-currency">₹</span>
+                    <span class="price-amount" id="price-elite">3,499</span>
+                    <span class="price-period">/ mo</span>
+                </div>
+                <p class="plan-desc">Luxurious hardware package with a lifetime premium app license.</p>
+                <ul class="pricing-features">
+                    <li><span class="feature-check">✓</span> Everything in Pro</li>
+                    <li><span class="feature-check">✓</span> Limited-edition charcoal silk shell</li>
+                    <li><span class="feature-check">✓</span> Premium leather travel pod</li>
+                    <li><span class="feature-check">✓</span> Lifetime software subscription</li>
+                </ul>
+                <a href="#preorder" class="btn btn-secondary price-btn">Go Elite</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section" id="preorder">
+        <div class="cta-container reveal">
+            <h2>Ready to Wake Up Recharged?</h2>
+            <p>Secure your place in our next production batch. Enter your email to lock in your 20% launch discount and get notified when your mask is ready to ship.</p>
+            <form class="cta-form" id="signup-form" novalidate>
+                <input type="email" class="cta-input" id="email-field" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-primary cta-submit">Claim Your Discount</button>
+            </form>
+            <div class="form-message" id="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo-container">
+                    <div class="logo-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#06040d"/>
+                            <path d="M12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" fill="#00f2fe"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">AURA</span>
+                </a>
+                <p>Designing advanced neuro-technology to optimize deep sleep and enhance conscious dreaming states.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#tech">The Science</a></li>
+                    <li><a href="#pricing">Pricing Plans</a></li>
+                    <li><a href="#preorder">Pre-Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#home">About Us</a></li>
+                    <li><a href="#home">Careers</a></li>
+                    <li><a href="#home">Press Kit</a></li>
+                    <li><a href="#home">Research Paper</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#home">Privacy Policy</a></li>
+                    <li><a href="#home">Terms of Service</a></li>
+                    <li><a href="#home">FCC Compliance</a></li>
+                    <li><a href="#home">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 AURA Neuro-Systems Inc. All Rights Reserved. Fully manufactured under global wellness standards.</p>
+            <div class="social-links">
+                <a href="#home" class="social-icon">𝕏</a>
+                <a href="#home" class="social-icon">📸</a>
+                <a href="#home" class="social-icon">🎞️</a>
+                <a href="#home" class="social-icon">💬</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript File -->
+    <script>
+        // Sticky Header Script
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Navigation Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('open');
+        });
+
+        // Close menu on nav item click
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                menuToggle.classList.remove('open');
+                
+                // Set active navigation tab
+                navLinks.forEach(item => item.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+
+        // IntersectionObserver for Scroll Reveals
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target); // Trigger only once
+                }
+            });
+        }, {
+            threshold: 0.15,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(elem => {
+            revealObserver.observe(elem);
+        });
+
+        // Sleep stage visualizer data
+        const stageData = {
+            light: {
+                title: "Light Sleep Integration",
+                desc: "Aura begins detecting sleep onset, utilizing acoustic bone-conduction soundscapes to lower heart rate and prepare the mind for deeper rest.",
+                wave: "Theta (4 - 8 Hz)",
+                response: "Acoustic Alignment",
+                svgPath: "M 0,60 C 10,60 15,20 25,20 C 35,20 40,100 50,100 C 60,100 65,40 75,40 C 85,40 90,80 100,80 C 110,80 115,50 125,50 C 135,50 140,70 150,70 C 160,70 165,30 175,30 C 185,30 190,90 200,90 C 210,90 215,40 225,40 C 235,40 240,80 250,80 C 260,80 265,55 275,55 C 285,55 290,65 300,65 C 310,65 315,35 325,35 C 335,35 340,85 350,85 C 360,85 365,45 375,45 C 385,45 390,75 400,75 C 410,75 415,50 425,50 C 435,50 440,70 450,70 C 460,70 465,25 475,25 C 485,25 490,95 500,95 C 510,95 515,40 525,40 C 535,40 540,80 550,80 C 560,80 565,60 575,60 C 585,60 590,60 600,60",
+                color: "#00f2fe"
+            },
+            deep: {
+                title: "Deep Sleep Slow-Wave Boost",
+                desc: "Aura's biosensors track delta activity, micro-stimulating the brain in phase-locked sequences to intensify deep sleep amplitude and trigger muscle repair.",
+                wave: "Delta (0.5 - 4 Hz)",
+                response: "Phase-Locked Micro-Currents",
+                svgPath: "M 0,60 C 20,60 30,10 50,10 C 70,10 80,110 100,110 C 120,110 130,10 150,10 C 170,10 180,110 200,110 C 220,110 230,15 250,15 C 270,15 280,105 300,105 C 320,105 330,10 350,10 C 370,10 380,110 400,110 C 420,110 430,20 450,20 C 470,20 480,100 500,100 C 520,100 530,15 550,15 C 570,15 580,60 600,60",
+                color: "#a155ff"
+            },
+            rem: {
+                title: "REM Lucid Dream Activation",
+                desc: "When REM is detected via micro-eye movement signals, Aura delivers custom light patterns onto the eyelids, helping you gain consciousness within dreams.",
+                wave: "Beta/Theta Burst (6 - 15 Hz)",
+                response: "Ocular LED cues & Frequencies",
+                svgPath: "M 0,60 C 5,60 7,40 10,40 C 13,40 15,80 18,80 C 21,80 23,20 26,20 C 29,20 31,100 34,100 C 37,100 39,50 42,50 C 45,50 47,70 50,70 C 53,70 55,10 58,10 C 61,10 63,110 66,110 C 69,110 71,45 74,45 C 77,45 79,75 82,75 C 85,75 87,30 90,30 C 93,30 95,90 98,90 C 101,90 103,40 106,40 C 109,40 111,80 114,80 C 117,80 119,55 122,55 C 125,55 127,65 130,65 C 133,65 135,35 138,35 C 141,35 143,85 146,85 C 149,85 151,45 154,45 C 157,45 159,75 162,75 C 165,75 167,30 170,30 C 173,30 175,90 178,90 C 181,90 183,40 186,40 C 189,40 191,80 194,80 C 197,80 199,55 202,55 C 205,55 207,65 210,65 C 213,65 215,35 218,35 C 221,35 223,85 226,85 C 229,85 231,45 234,45 C 237,45 239,75 242,75 C 245,75 247,30 250,30 C 253,30 255,90 258,90 C 261,90 263,40 266,40 C 269,40 271,80 274,80 C 277,80 279,55 282,55 C 285,55 287,65 290,65 C 293,65 295,35 298,35 C 301,35 303,85 306,85 C 309,85 311,45 314,45 C 317,45 319,75 322,75 C 325,75 327,30 330,30 C 333,30 335,90 338,90 C 341,90 343,40 346,40 C 349,40 351,80 354,80 C 357,80 359,55 362,55 C 365,55 367,65 370,65 C 373,65 375,35 378,35 C 381,35 383,85 386,85 C 389,85 391,45 394,45 C 397,45 399,75 402,75 C 405,75 407,30 410,30 C 413,30 415,90 418,90 C 421,90 423,40 426,40 C 429,40 431,80 434,80 C 437,80 439,55 442,55 C 445,55 447,65 450,65 C 453,65 455,35 458,35 C 461,35 463,85 466,85 C 469,85 471,45 474,45 C 477,45 479,75 482,75 C 485,75 487,30 490,30 C 493,30 495,90 498,90 C 501,90 503,40 506,40 C 509,40 511,80 514,80 C 517,80 519,55 522,55 C 525,55 527,65 530,65 C 533,65 535,35 538,35 C 541,35 543,85 546,85 C 549,85 551,45 554,45 C 557,45 559,75 562,75 C 565,75 567,30 570,30 C 573,30 575,90 578,90 C 581,90 583,40 586,40 C 589,40 591,80 594,80 C 597,80 599,60 600,60",
+                color: "#ffd700"
+            }
+        };
+
+        const stageButtons = document.querySelectorAll('.stage-btn');
+        const eegWave = document.getElementById('eeg-wave');
+        const stageTitle = document.getElementById('stage-title');
+        const stageDesc = document.getElementById('stage-desc');
+        const statWave = document.getElementById('stat-wave');
+        const statResponse = document.getElementById('stat-response');
+
+        stageButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Toggle active button
+                stageButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // Get state data
+                const stage = btn.getAttribute('data-stage');
+                const data = stageData[stage];
+
+                // Update text and wave elements
+                stageTitle.textContent = data.title;
+                stageDesc.textContent = data.desc;
+                statWave.textContent = data.wave;
+                statResponse.textContent = data.response;
+                
+                // Trigger smooth wave shift animation
+                eegWave.style.transition = 'all 0.5s ease';
+                eegWave.setAttribute('d', data.svgPath);
+                eegWave.setAttribute('stroke', data.color);
+            });
+        });
+
+        // Pricing values toggler
+        const billingToggle = document.getElementById('billing-toggle');
+        const pricingContainer = document.querySelector('.pricing-toggle-container');
+        const labelMonthly = document.getElementById('label-monthly');
+        const labelYearly = document.getElementById('label-yearly');
+
+        const priceLite = document.getElementById('price-lite');
+        const pricePro = document.getElementById('price-pro');
+        const priceElite = document.getElementById('price-elite');
+
+        const prices = {
+            monthly: { lite: "1,299", pro: "1,999", elite: "3,499" },
+            yearly: { lite: "999", pro: "1,599", elite: "2,799" }
+        };
+
+        billingToggle.addEventListener('click', () => {
+            const isYearly = pricingContainer.classList.toggle('yearly-active');
+            
+            if (isYearly) {
+                labelYearly.classList.add('active');
+                labelMonthly.classList.remove('active');
+                animatePriceChange(prices.yearly);
+            } else {
+                labelMonthly.classList.add('active');
+                labelYearly.classList.remove('active');
+                animatePriceChange(prices.monthly);
+            }
+        });
+
+        function animatePriceChange(data) {
+            [priceLite, pricePro, priceElite].forEach(el => {
+                el.style.opacity = 0;
+                el.style.transform = 'translateY(-10px)';
+            });
+
+            setTimeout(() => {
+                priceLite.textContent = data.lite;
+                pricePro.textContent = data.pro;
+                priceElite.textContent = data.elite;
+
+                [priceLite, pricePro, priceElite].forEach(el => {
+                    el.style.opacity = 1;
+                    el.style.transform = 'translateY(0)';
+                    el.style.transition = 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+                });
+            }, 200);
+        }
+
+        // CTA Signup Form Submission Simulator
+        const signupForm = document.getElementById('signup-form');
+        const emailField = document.getElementById('email-field');
+        const formMessage = document.getElementById('form-message');
+
+        signupForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const email = emailField.value.trim();
+            formMessage.className = "form-message"; // Reset classes
+
+            if (!email) {
+                formMessage.textContent = "Please enter an email address.";
+                formMessage.classList.add('error');
+                return;
+            }
+
+            if (!validateEmail(email)) {
+                formMessage.textContent = "Please enter a valid email address.";
+                formMessage.classList.add('error');
+                return;
+            }
+
+            // Simulate form submission API call
+            formMessage.textContent = "Sending security verification...";
+            formMessage.style.color = "var(--text-secondary)";
+            
+            setTimeout(() => {
+                formMessage.textContent = "Success! Your discount is locked in. Check your inbox for confirmation.";
+                formMessage.className = "form-message success";
+                emailField.value = "";
+            }, 1200);
+        });
+
+        function validateEmail(email) {
+            const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+    </script>
+</body>
+</html>
